@@ -27,6 +27,8 @@ if(this.props.charId !== prevProps.charId){
 }
 }
 
+
+
 updateChar = () => {
     const {charId} = this.props;
 if(!charId){
